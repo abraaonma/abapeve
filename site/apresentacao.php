@@ -1,4 +1,4 @@
-<?php require_once('top.php'); ?>
+<main role="main">
 
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
@@ -9,7 +9,7 @@
     <div class="carousel-inner">
       <div class="carousel-item active">
         <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
-        <img src="" alt="" class="bd-placeholder-img">
+        <img src="http://www.educarelab.com/wp-content/uploads/2017/02/7-Reasons-Why-Students-Dropout-of-College.jpg" alt="" class="bd-placeholder-img">
         <div class="container">
           <div class="carousel-caption text-left">
             <h1 class="corousel-title-color">Escolas fecham por período indeterminado.</h1>
@@ -20,7 +20,7 @@
       </div>
       <div class="carousel-item">
         <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
-        <img src="" alt="" class="bd-placeholder-img">
+        <img src="https://www.learningliftoff.com/wp-content/uploads/2017/06/Study_Learning-and-Attention_Drop-Out-730x390.jpg" alt="" class="bd-placeholder-img">
         <div class="container">
           <div class="carousel-caption text-left">
             <h1 class="corousel-title-color">Risco de evasão aumenta em 50%.</h1>
@@ -31,7 +31,7 @@
       </div>
       <div class="carousel-item">
         <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
-        <img src="" alt="" class="bd-placeholder-img">
+        <img src="http://neatoday.org/wp-content/uploads/2014/04/desk.jpg" alt="" class="bd-placeholder-img">
         <div class="container">
           <div class="carousel-caption text-left">
             <h1 class="corousel-title-color">Scholl Dropout Combat.</h1>
@@ -119,11 +119,8 @@
       </div>
     </div>
 
+    <hr class="featurette-divider">
+
     <!-- /END THE FEATURETTES -->
 
   </div><!-- /.container -->
-
-
-<?php
-  include_once('footer.php');
-?>

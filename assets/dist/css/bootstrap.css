@@ -6796,8 +6796,20 @@ button.bg-light:focus {
   background-color: #dae0e5 !important;
 }
 
+.bg-margin-top{
+  margin-top: 10px;
+}
+
 .bg-dark {
   background-color: #343a40 !important;
+}
+
+.bg-dark-violet {
+  background-color: #9242c1;
+}
+
+.bg-dark-blue {
+  background-color: #554475;
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
@@ -6896,6 +6908,10 @@ button.bg-dark:focus {
 
 .rounded {
   border-radius: 0.25rem !important;
+}
+
+.rounded-post {
+  border-radius: 0 !important;
 }
 
 .rounded-top {
