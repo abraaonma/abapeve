@@ -24,6 +24,11 @@
         <p>A ABAPEVE nasceu da Rede de Pesquisa Ibero-Americana sobre Educação Profissional e Evasão Escolar, a qual resultou de deliberações finais constituídas no I Colóquio Internacional sobre Educação Profissional e Evasão Escolar no ano de 2009, ratificadas posteriormente II Colóquio Internacional sobre Educação Profissional e Evasão Escolar ocorrido em agosto de 2011, na Faculdade de Educação, da Universidade Federal de Minas Gerais, situada em Belo Horizonte, Minas Gerais, Brasil. </p>
         <p>Este evento contou com a participaçã o de representantes de instituições de países latinos, como o México, Uruguai, Chile, Argentina, Colômbia e também participaram efetivamente dois professores de instituições européias, Itália e Espanha, representantes do <i> Research Network on Youth Education and Training (NYET) </i>, no qual o Brasil também está representado. O objetivo foi, sobretudo, analisar os processos de evasão escolar na educação técnica profissional de nível médio, debater os resultados de investigações realizadas sobre essa temática e identificar perspectivas para a realização de um trabalho conjunto, envolvendo investigadores que dão prioridade a esse objeto de estudo, na região ibero-americana, com a finalidade de formar uma Rede Integrada de Trabalho.</p>
         
+        <?php 
+          include_once ('libphp/select.php'); 
+          quemSomosSe();
+        ?>
+
         <?php include_once ('../editor.php') ;?>
 
       </div><!-- /.blog-post -->

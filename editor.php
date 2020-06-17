@@ -10,17 +10,18 @@ CKEditor
 CKEditor deve ser considerado o editor padrão para projetos.
 Aqui está uma formatação simples para um editor de texto.
 * Deve-se incluir "class" e/ou "divs" e vincular à folha de estilos (css).
-** Deve-se incluir o "method" e "action" no "form".
-*** Para ter êxito, deve-se copiar a pasta (extraída) do CKeditor no servidor.
+* Deve-se incluir o "method" e "action" no "form".
+* Para ter êxito, deve-se copiar a pasta (extraída) do CKeditor no servidor.
+* O formato das "class" usados abaixo são da referência de bootstrap 4.
 ===============================================================================  
 -->
     <!-- Incluir a construção da "class" - sugestão para nome: container-editor -->
     <div class="container-editor">
-        <form action="">
-        <label for="site/libphp/menu.php">Escolha um menu para editar:</label>
-        <select id="titulo">
+        <form method="POST">
+        <label for="">Escolha um menu para editar:</label>
+        <select id="titulo" name="titulo">
             <option value="home">Home</option>
-            <option value="inst_quemsomos">Institucional -> Quem somos</option>
+            <option value="2">Institucional -> Quem somos</option>
             <option value="inst_historico">Institucional -> Histórico</option>
             <option value="inst_nossoobjetivo">Institucional -> Nossos objetivos</option>
             <option value="projetos">Projetos e Pesquisa</option>
@@ -33,8 +34,14 @@ Aqui está uma formatação simples para um editor de texto.
             <option value="coluna_direita">Coluna lateral direita</option>
         </select>
             <textarea name="texto">Digite seu texto aqui!</textarea><br>
-            <input type="submit" value="Enviar texto ao banco de dados" class="btn-primary">
+            <input type="submit" name="enviar" value="Enviar texto ao banco de dados" class="btn-primary">
         </form>
+        <?php
+            if(isset($_POST['enviar']))
+            {
+                header('Location: site/libphp/update.php');
+            }
+        ?>
     </div>
     <!-- Este script faz o link com o arquivo "ckeditor.js" -->
     <script src="../ckeditor/ckeditor.js"></script>
