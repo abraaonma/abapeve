@@ -19,6 +19,11 @@
       <div class="blog-post">
         <h2 class="blog-post-title">Livros</h2>
 
+        <?php 
+          include_once ('libphp/select.php'); 
+          livrosSe();
+        ?>
+
         <?php include_once ('../editor.php') ;?>
 
     </div><!-- /.blog-post -->

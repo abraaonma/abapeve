@@ -31,6 +31,11 @@
             <li>Prof. Dr. João Bosco Laudares (CEFET-MG) Coordenador</li>
         </ul>
 
+        <?php 
+          include_once ('libphp/select.php'); 
+          projetosEpesquisasSe();
+        ?>
+
         <?php include_once ('../editor.php') ;?>
 
 </div><!-- /.blog-post -->

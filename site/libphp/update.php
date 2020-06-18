@@ -190,9 +190,55 @@
         }
     }  
     // ============== Após as funções =====================
+
     if($titulo == 2)
     {
         quemSomosUp();
         header('Location: ../quem-somos.php');
+    }
+    if($titulo == 3)
+    {
+        historicoUp();
+        header('Location: ../historico.php');
+    }
+    if($titulo == 4)
+    {
+        nossoObjetivoUp();
+        header('Location: ../objetivos.php');
+    }
+    if($titulo == 5)
+    {
+        projetosEpesquisasUp();
+        header('Location: ../pesquisa.php');
+    }
+    if($titulo == 6)
+    {
+        artigosUp();
+        header('Location: ../artigos.php');
+    }
+    if($titulo == 7)
+    {
+        livrosUp();
+        header('Location: ../livros.php');
+    }
+    if($titulo == 8)
+    {
+        ebooksUp();
+        header('Location: ../ebooks.php');
+    }
+    if($titulo == 9)
+    {
+        eventosUp();
+        header('Location: ../eventos.php');
+    }
+    if($titulo == 10)
+    {
+        noticiasUp();
+        header('Location: ../noticias.php');
+    }
+    if($titulo == 11)
+    {
+        faleConoscoUp();
+        header('Location: ../faleconosco.php');
     }
 ?>

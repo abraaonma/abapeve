@@ -17,31 +17,26 @@ Aqui está uma formatação simples para um editor de texto.
 -->
     <!-- Incluir a construção da "class" - sugestão para nome: container-editor -->
     <div class="container-editor">
-        <form method="POST">
+        <form action="libphp/update.php" method="POST">
         <label for="">Escolha um menu para editar:</label>
-        <select id="titulo" name="titulo">
+        <select id="titulo" name="titulo" required>
             <option value="home">Home</option>
             <option value="2">Institucional -> Quem somos</option>
-            <option value="inst_historico">Institucional -> Histórico</option>
-            <option value="inst_nossoobjetivo">Institucional -> Nossos objetivos</option>
-            <option value="projetos">Projetos e Pesquisa</option>
-            <option value="pub_artigos">Publicações -> Artigos</option>
-            <option value="pub_livros">Publicações -> Livros</option>
-            <option value="pub_ebooks">Publicações -> E-books</option>
-            <option value="eventos">Eventos</option>
-            <option value="noticias">Notícias</option>
-            <option value="faleconosco">Fale conosco</option>
+            <option value="3">Institucional -> Histórico</option>
+            <option value="4">Institucional -> Nossos objetivos</option>
+            <option value="5">Projetos e Pesquisa</option>
+            <option value="6">Publicações -> Artigos</option>
+            <option value="7">Publicações -> Livros</option>
+            <option value="8">Publicações -> E-books</option>
+            <option value="9">Eventos</option>
+            <option value="10">Notícias</option>
+            <option value="11">Fale conosco</option>
             <option value="coluna_direita">Coluna lateral direita</option>
         </select>
-            <textarea name="texto">Digite seu texto aqui!</textarea><br>
+            <textarea name="texto" required>Digite seu texto aqui!</textarea><br>
             <input type="submit" name="enviar" value="Enviar texto ao banco de dados" class="btn-primary">
         </form>
-        <?php
-            if(isset($_POST['enviar']))
-            {
-                header('Location: site/libphp/update.php');
-            }
-        ?>
+
     </div>
     <!-- Este script faz o link com o arquivo "ckeditor.js" -->
     <script src="../ckeditor/ckeditor.js"></script>

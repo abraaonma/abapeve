@@ -22,6 +22,11 @@
 
         <p>A RIMEPES tem como meta agregar pesquisadores e grupos de pesquisa sobre educação profissional de nível médio e evasão escolar, com o objetivo de aprofundar estudos sobre o tema e intensificar o intercâmbio de informações entre os membros da rede no Brasil e em diversos países da Ibero-América. A nossa experiência aliada a de cada país que integra a RIMEPES enriquece o debate e pode contribuir para o desenvolvimento de estratégias e a formulação de políticas públicas que auxiliem a prevenir e combater a evasão escolar.</p>
         
+        <?php 
+          include_once ('libphp/select.php'); 
+          nossoObjetivoSe();
+        ?>
+        
         <?php include_once ('../editor.php') ;?>
         
       </div><!-- /.blog-post -->

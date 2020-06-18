@@ -28,6 +28,12 @@
         <p>A partir das discussões oriundas desses eventos, surgiu a necessidade da criação de uma instituição nacional que se propusesse a integrar estudantes, profissionais e pesquisadores interessados no tema evasão escolar na educação brasileira. Daí originou a Associação Brasileira de Prevenção da Evasão na Educação Básica, Profissional e Superior (ABAPEVE), que desde 2016 é corresponsável pela organização dos eventos.</p>
         <p>Com o objetivo de dar continuidade às reflexões e compartilhar resultados de pesquisas sobre o fenômeno da evasão escolar na Educação Profissional, os eventos V Colóquio Internacional sobre a Educação Profissional e Evasão Escolar e IV Workshop Nacional de Educação Profissional e Evasão Escolar ocorrerão em São Luís-MA, nos dias 20 e 21 de setembro de 2018, sob a responsabilidade do Instituto Federal do Maranhão, com apoio do Instituto de Educação, Ciência e Tecnologia do Maranhão (IEMA), em parceria com a Rede Ibero-Americana de Trabalho e Estudos sobre a Educação Profissional e Evasão Escolar (RIMEPES) e com a Associação Brasileira de Prevenção da Evasão na Educação Básica, Profissional e Superior (ABAPEVE). Dessa forma, os eventos pretendem contribuir com a formação de estudantes de graduação e de pós- graduação, de professores da educação, básica, profissional e superior, além de pesquisadores interessados no tema. Para tanto, serão promovidas palestras, mesas redondas e discussões sobre temas como “evasão escolar”, “Educação Profissional”, “Formação, Trabalho e Juventude”, dentre outros, onde se pretende proporcionar a troca de conhecimentos e experiências culturais e educacionais diversas, além de possibilitar a participação dos interessados na Associação Brasileira de Prevenção da Evasão na Educação Básica e Superior.</p>
         <p>Finalmente, pretende-se que os eventos, através da reflexão e da busca de compreensão do sobre evasão escolar e Educação Profissional, possa contribuir com a construção de proposta para a prevenção da evasão escolar, através da promoção do acesso e da permanência com êxito do estudante da educação profissional e tecnológica.</p>
+        
+        <?php 
+          include_once ('libphp/select.php'); 
+          historicoSe();
+        ?>
+        
         <?php include_once ('../editor.php') ;?>
       </div><!-- /.blog-post -->
 
