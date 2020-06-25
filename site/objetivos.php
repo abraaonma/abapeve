@@ -4,7 +4,7 @@
 
 <div class="bg-margin-top">
 
-<div class="jumbotron p-4 p-md-5 text-white rounded-post bg-dark">
+<div class="jumbotron p-4 p-md-5 text-white rounded-post bg-primary">
     <div class="col-md-6 px-0">
       <h1 class="display-4 font-italic">Nosso objetivo</h1>
       <p class="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.</p>
@@ -26,9 +26,7 @@
           include_once ('libphp/select.php'); 
           nossoObjetivoSe();
         ?>
-        
-        <?php include_once ('../editor.php') ;?>
-        
+                
       </div><!-- /.blog-post -->
 
     </div><!-- /.blog-main -->

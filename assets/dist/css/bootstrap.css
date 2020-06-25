@@ -6797,7 +6797,7 @@ button.bg-light:focus {
 }
 
 .bg-margin-top{
-  margin-top: 10px;
+  margin-top: 8px;
 }
 
 .bg-dark {
@@ -6809,7 +6809,7 @@ button.bg-light:focus {
 }
 
 .bg-dark-blue {
-  background-color: #554475;
+  background-color: #2e367c;
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
